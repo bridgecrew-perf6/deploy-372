@@ -60,13 +60,8 @@ region: ap-south-1
 individually: true
 
 functions:
-  functionOne:
-    handler: functionOne/handler.hello
-  functionTwo:
-    handler: functionTwo/handler.hello
-  functionThree:
-    handler: functionThree/handler.hello
- 
+  hello:
+    handler: src/handler.hello
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
