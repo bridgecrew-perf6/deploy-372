@@ -23,9 +23,7 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: nodejs12.x
-
-# you can overwrite defaults here
-stage: dev
+  stage: dev
 region: ap-south-1
 
 # you can add statements to the Lambda function's IAM Role here
@@ -57,12 +55,10 @@ region: ap-south-1
 #    - '!exclude-me-dir/**'
 #    - include-me.js
 #    - include-me-dir/**
-individually: true
 
 functions:
   hello:
-    handler: src/handler.hello
-
+    handler: handler.hello
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
