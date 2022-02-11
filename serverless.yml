@@ -61,7 +61,11 @@ individually: true
 
 functions:
   functionOne:
-    handler: functionOne/handler.functionOne
+    handler: functionOne/handler.hello
+  functionTwo:
+    handler: functionTwo/handler.hello
+  functionThree:
+    handler: functionThree/handler.hello
  
 
 #    The following are a few example events you can configure
