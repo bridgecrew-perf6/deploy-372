@@ -9,7 +9,7 @@ provider:
 functions:
   hello3:
     handler: src3/handler.generateRandomNumber
-    timeout: 60 # seconds
+    timeout: 60 # secondss
     memorySize: 128 # mb
 
   fast:
