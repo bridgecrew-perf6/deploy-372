@@ -12,12 +12,12 @@ functions:
     timeout: 60 # seconds
     memorySize: 128 # mb
 
-    hello:
+  hello1:
     handler: src1/handler.generateRandomNumber
     timeout: 60 # seconds
     memorySize: 128 # mb
 
-    hello:
+  hello2:
     handler: src2/handler.generateRandomNumber
     timeout: 60 # seconds
     memorySize: 128 # mb 
