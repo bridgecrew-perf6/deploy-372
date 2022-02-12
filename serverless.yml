@@ -27,9 +27,21 @@ functions:
     timeout: 60 # seconds
     memorySize: 128 # mb
 
+  fast:
+    runtime: python3.6
+    events:
+      - http:
+          method: get
+          path: greet
+    handler: web/handler.hello
 
-
-
-
+  time:
+    runtime: nodejs6.10
+    events:
+      - http:
+          method: get
+          path: time
+    handler: api/handler.timestamp
+    
 package:
  individually: true
