@@ -7,21 +7,6 @@ provider:
   region: ap-south-1
 
 functions:
-  hello:
-    handler: src/handler.generateRandomNumber
-    timeout: 60 # seconds
-    memorySize: 128 # mb
-
-  hello1:
-    handler: src1/handler.generateRandomNumber
-    timeout: 60 # seconds
-    memorySize: 128 # mb   
-
-  hello2:
-    handler: src2/handler.generateRandomNumber
-    timeout: 60 # seconds
-    memorySize: 128 # mb 
-    
   hello3:
     handler: src3/handler.generateRandomNumber
     timeout: 60 # seconds
@@ -41,7 +26,7 @@ functions:
       - http:
           method: get
           path: time
-    handler: api/handler.timestamp
-    
+    handler: wev2/handler.timestamp
+
 package:
  individually: true
