@@ -12,21 +12,12 @@ functions:
     timeout: 60 # secondss
     memorySize: 128 # mb
 
-  fast:
-    runtime: python3.6
-    events:
-      - http:
-          method: get
-          path: greet
-    handler: web/handler.hello
+  hello123:
+    handler: src/handler.generateRandomNumber
+    timeout: 60 # secondss
+    memorySize: 128 # mb  
 
-  time:
-    runtime: nodejs6.10
-    events:
-      - http:
-          method: get
-          path: time
-    handler: wev2/handler.timestamp
+  
 
 package:
  individually: true
