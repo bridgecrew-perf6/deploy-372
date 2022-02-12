@@ -19,7 +19,7 @@ functions:
 
   hello2:
     handler: src2/handler.generateRandomNumber
-    timeout: 60 # secondss
+    timeout: 60 # seconds
     memorySize: 128 # mb 
 
 package:
