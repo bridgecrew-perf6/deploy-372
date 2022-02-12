@@ -2,8 +2,8 @@ name: Deploy Python Lambda
 
 on:
   push:
-    branches:
-      - tags
+    tags:
+      - "v*"  # push to version tags trigger the buildd
 
 jobs:
   deploy:
