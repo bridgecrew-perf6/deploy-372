@@ -13,7 +13,7 @@ functions:
     memorySize: 128 # mb
 
   hello1:
-    handler: src1/handler.generateRandomNumber
+    handler: src1/handler.hello
     timeout: 60 # seconds
     memorySize: 128 # mb
 
