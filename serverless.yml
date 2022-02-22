@@ -7,10 +7,11 @@ provider:
   region: ap-south-1
 
 functions:
-  hello123:
-    handler: src/handler.hello
-    timeout: 60 # seconds
-    memorySize: 128 # mb  
+  app:
+    handler: src3/index.handler
+    events:
+      - http: ANY /
+      - http: 'ANY {proxy+}'      
   
 package:
  individually: true
