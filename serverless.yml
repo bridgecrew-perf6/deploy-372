@@ -7,17 +7,10 @@ provider:
   region: ap-south-1
 
 functions:
-  hello3:
-    handler: src3/handler.generateRandomNumber
-    timeout: 60 # secondss
-    memorySize: 128 # mb
-
   hello123:
     handler: src/handler.generateRandomNumber
     timeout: 60 # secondss
     memorySize: 128 # mb  
-
   
-
 package:
  individually: true
