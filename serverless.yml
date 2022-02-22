@@ -9,7 +9,7 @@ provider:
 functions:
   hello123:
     handler: src/handler.generateRandomNumber
-    timeout: 60 # secondss
+    timeout: 60 # seconds
     memorySize: 128 # mb  
   
 package:
