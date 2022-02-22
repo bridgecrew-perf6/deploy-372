@@ -7,11 +7,12 @@ provider:
   region: ap-south-1
 
 functions:
-  hello:
+  app:
     handler: src3/index.handler
     events:
       - http: ANY /
-      - http: 'ANY {proxy+}'      
+      - http: 'ANY {proxy+}'  
+      
   
 package:
  individually: true
