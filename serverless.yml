@@ -7,7 +7,7 @@ provider:
   region: ap-south-1
 
 functions:
-  app:
+  hello:
     handler: src3/index.handler
     events:
       - http: ANY /
