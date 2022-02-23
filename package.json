@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "serverless": "^3.2.0"
+    "serverless": "^3.2.0",
+    "serverless-webpack": "^5.6.1",
+    "webpack": "^5.69.1"
   }
 }
