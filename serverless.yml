@@ -13,7 +13,7 @@ functions:
     handler: src/handler.hello
 
   Login:
-    handler: src1/handler
+    handler: src1/handler.handler
     
 plugins:
     - serverless-webpack 
