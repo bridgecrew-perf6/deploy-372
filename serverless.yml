@@ -9,10 +9,7 @@ provider:
 functions:
   app:
     handler: src/handler.hello
-    events:
-      - http: ANY /
-      - http: 'ANY {proxy+}'  
-      
+    
   
 package:
  individually: true
