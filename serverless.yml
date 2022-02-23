@@ -10,7 +10,7 @@ functions:
   app:
     handler: src/handler.hello
 
-  app:
+  app1:
     handler: src1/handler.hello1  
     
   
