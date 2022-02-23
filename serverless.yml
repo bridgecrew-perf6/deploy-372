@@ -7,10 +7,10 @@ provider:
   region: ap-south-1
 
 functions:
-  app:
+  Front:
     handler: src/handler.hello
 
-  app1:
+  Login:
     handler: src1/handler.hello1  
     
   
