@@ -9,6 +9,9 @@ provider:
 functions:
   app:
     handler: src/handler.hello
+
+  app:
+    handler: src1/handler.hello  
     
   
 package:
