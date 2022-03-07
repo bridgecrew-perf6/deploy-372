@@ -1,10 +1,15 @@
-exports.handler = async (event) => {
-  const min = 1;
-  const max = 6;    
-  const randomNumber = Math.floor(
-    Math.random() * (max - min + 1)
-  ) + min;
-  const message = 'Your dice throw resulted in: ' +
-    randomNumber;
-  return message;
+'use strict';
+
+module.exports.hello1 = async (event) => {
+  return {
+    statusCode: 200,
+    body: JSON.stringify(
+      {
+        message: 'Go Serverless v3.0! Your function executed successfully123!',
+        input: event,
+      },
+      null,
+      2
+    ),
+  };
 };

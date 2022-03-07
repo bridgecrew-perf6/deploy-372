@@ -1,6 +1,6 @@
 service: Lambda-fun-deploy
 
-frameworkVersion: '3'
+
 
 provider:
   name: aws
@@ -13,7 +13,7 @@ functions:
     handler: src/handler.hello
 
   Login:
-    handler: src1/handler.handler
+    handler: src1/handler.hello1  
     
 plugins:
     - serverless-webpack 
