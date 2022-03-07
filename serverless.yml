@@ -8,10 +8,10 @@ provider:
 
 functions:
   Front:
-    handler: src/handler.hello
+    handler: Front/handler.hello
 
   Login:
-    handler: src1/handler.hello1  
+    handler: Login/handler.hello1  
     
 plugins:
     - serverless-webpack 
